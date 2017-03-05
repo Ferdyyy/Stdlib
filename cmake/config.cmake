@@ -77,7 +77,7 @@ int main (void) {
   mach_port_deallocate (mach_task_self(), cclock);
   ts.tv_sec = mts.tv_sec;
   ts.tv_nsec = mts.tv_nsec;
-"
+}"
 HAVE_MACH_CLOCK_GET_TIME)
 
 CONFIGURE_FILE ("${PROJECT_SOURCE_DIR}/cmake/config.h.in"
