@@ -19,8 +19,9 @@ $ git submodule update
 $ mkdir build
 $ cd build
 $ cmake ..
+$ mkdir ~/.sac2crc
 $ make -j4  //you should have roughly 2GB per thread :-)
-$ make install
+$ sudo make install
 ```
 
 Variables that can be passed to CMake
